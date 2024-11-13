@@ -1,0 +1,228 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: purple;
+}
+
+header {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between; /* Para mantener los botones a la derecha */
+  align-items: center; /* Para alinear los elementos verticalmente */
+}
+
+header h1 {
+  flex: 1.5; /* Esto hace que el título ocupe el espacio disponible y lo centre */
+  text-align: center; /* Centra el texto del título */
+  margin: 0;
+}
+
+.logo {
+  position: absolute;
+  width: 70px; /* Ajusta el ancho del logo */
+  height: auto; /* Mantiene la proporción */
+  margin-right: 10px; /* Añade un pequeño espacio a la derecha del logo */
+}
+
+.nombre-tienda {
+  font-size: 1.2rem; /* Ajusta el tamaño de letra del nombre */
+  color: white; /* Color del nombre */
+  margin-left: 80px; /* Ajusta el espacio entre el logo y el nombre si es necesario */
+}
+
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-cancelar {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #ff4d4d; /* Rojo */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.btn-segir {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1r;
+  background-color: #4CAF50; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-cancelar:hover {
+  background-color: #e63946; 
+}
+
+.btn-segir:hover {
+  background-color: #45a049;
+}
+
+/* Botón Limpiar Campos - Rojo */
+.btn-limp {
+  background-color: #f44336; /* Rojo */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-limp:hover {
+  background-color: #e53935; /* Rojo más oscuro al pasar el ratón */
+}
+
+/* Botón Confirmar Compra - Verde */
+.btn-confi {
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-confi:hover {
+  background-color: #45a049; /* Verde más oscuro al pasar el ratón */
+}
+
+main {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+
+#carritoActual {
+  flex: 1; /* Toma 1 parte del espacio en el contenedor principal */
+}
+
+#tablaCarrito {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#tablaCarrito th, #tablaCarrito td {
+  padding: 0.75rem;
+  border: 4px solid #ddd;
+  text-align: left;
+}
+
+#tablaCarrito th {
+  background-color: #333;
+  color: white;
+}
+
+/* Formulario de Tarjeta Styles */
+#tarjetaCredito {
+  flex: 1; /* Toma 1 parte del espacio en el contenedor principal */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#formularioTarjeta label {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+#formularioTarjeta input, 
+#formularioTarjeta select, 
+#formularioTarjeta button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#formularioTarjeta input[type="text"],
+#formularioTarjeta input[type="password"],
+#formularioTarjeta select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.input-container {
+  position: relative;
+}
+
+#mostrarCodigoSeguridad {
+  margin-right: 10px;  /* Para dar un espacio entre el checkbox y el texto */
+  position: absolute;
+  left: 90px;  /* Mueve el checkbox un poco más a la derecha */
+  top: 10px; /* Ajusta la posición vertical según sea necesario */
+}
+
+input[type="checkbox"] {
+  margin-left: 0; /* Asegura que no haya un margen izquierdo adicional */
+}
+
+#codigoSeguridad {
+  padding-right: 30px; /* Para evitar que el checkbox se superponga con el campo de entrada */
+}
+
+#resumenCompra {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#resumenCompra p {
+  margin: 0.5rem 0;
+}
+ 
+
+footer {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+ 
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+footer a {
+  color: #ffcc00; /* Color para los enlaces */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+

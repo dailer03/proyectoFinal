@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vista de Productos</title>
+  <link rel="stylesheet" href="../css/vistaCompras.css">
+</head>
+<body>
+    <header>
+      <img src="../img/DASM.jpg" alt="Logo de la tienda" class="logo"> <!-- Añadir logo -->
+      <span class="nombre-tienda"> DASM store</span>
+        <h1>vista de productos</h1> 
+        <button class="btn-cancelar" onclick="cancelarCompra()">Cancelar Compra</button>
+        <button class="btn-completar" onclick="completarCompra()">Completar Compra</button>
+     </nav>
+    </header>
+    
+   <div class="main-container">
+   <div class="container">
+    <h1>Productos Disponibles</h1>
+
+    <!-- Sección de Filtros -->
+    <section class="filtros">
+      <label for="categoria">Categoría:</label>
+      <select id="categoria">
+        <option value="">Todos</option>
+        <option value="Deportivos">Deportivos</option>
+        <option value="Clasicas">Clasicas</option>
+        <option value="urbanas">urbanas</option>
+      </select>
+
+      <label for="nombreProducto">Nombre del Producto:</label>
+      <input type="text" id="nombreProducto" placeholder="Buscar por nombre">
+
+      <button class="btn-fil"    onclick="filtrarProductos()">Filtrar</button>
+      <button class="btn-lim"    onclick="limpiarFiltros()">Limpiar Filtros</button>
+    </section>
+
+    <!-- Sección de Productos -->
+    <section id="productos" class="productos"></section> 
+  </div>
+
+  <!-- Sección de Ver Detalle -->
+ <div class="conta"> 
+
+  <section id="verDetalle" class="detalle">
+    <h2>Detalle del Producto</h2>
+    <div id="detalleInfo"></div>
+  </section>
+
+ </div>
+</div>
+
+  <script src="../js/data.js"></script> 
+</body>
+</html>

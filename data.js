@@ -1,11 +1,11 @@
 const productos = [
     { 
         nombre: "Nike R1",
-        cantida_disponible: 1,
+        cantida_disponible: 3,
         precio: "120.000",
         img: " https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/296839a0-9bd6-4c1c-b79b-055476793c29/calzado-air-jordan-1-retro-high-sp-1QS3rN.png" ,
         codigo: "Nk01",
-        categoria: "DEPORTIVO",
+        categoria: "Deportivos",
         
         
     },
@@ -15,7 +15,7 @@ const productos = [
         precio: "120.000", 
         img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/192bd1e3-9fd1-4f94-9f0e-799e443357e9/tenis-air-jordan-1-low-rJrHLw.png",
         codigo: "Nk02",
-        categoria: "Deportivo",
+        categoria: "Clasicas",
     },
     { 
          
@@ -24,7 +24,7 @@ const productos = [
         precio: "120.000",
         img: "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/85f4973d-4233-45f7-8a74-b6c155f87c06/calzado-grandes-air-jordan-1-mid-H5qqbF.png"  ,
         codigo: "Nk03",
-        categoria:"Deportivo", 
+        categoria:"urbanas", 
         
        },
        { 
@@ -148,7 +148,7 @@ const productos = [
         precio: "90.000",
         img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a66fbbfc-5658-4bfb-a108-44709d903ee3/calzado-cortez-vVqNKk.png"  ,
         codigo: "Nk15",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
 
        },
     
@@ -160,7 +160,7 @@ const productos = [
         precio: "110.000",
         img:"https://th.bing.com/th/id/OIP.Q0ofrVURkbH2DTP3MXhziQHaHa?pid=ImgDet&w=183&h=183&c=7" ,
         codigo: "Jr16",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
        },
     
 
@@ -171,7 +171,7 @@ const productos = [
         precio: "110.000",
         img: "https://th.bing.com/th/id/OIP.xgKG439wNzyKE27Gd09THQAAAA?rs=1&pid=ImgDetMain"  ,
         codigo: "Jr17",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
 
        },
     
@@ -183,7 +183,7 @@ const productos = [
         precio: "110.000",
         img:"https://zshopp.com/wp-content/uploads/2020/02/71EC9PEubGL._UL1500_.jpg" ,
         codigo: "Jr18",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
 
        },
     
@@ -195,7 +195,7 @@ const productos = [
         precio: "110.000",
         img: "https://uptowndeluxe.co.jp/upload/save_image/0508064207_64581b2f111e7.png",
         codigo: "Jr19",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
 
        },
     
@@ -207,7 +207,7 @@ const productos = [
         precio: "110.000",
         img: "https://www.calzatesp.com/wp-content/uploads/2022/10/Canyon-Purple-1-600x600.jpg" ,
         codigo: "Jr20",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
        },
     
 
@@ -218,7 +218,7 @@ const productos = [
         precio: "110.000",
         img:"https://s3.amazonaws.com/images.kicksfinder.com/products/large/3b2958a4f266bd5d89c3eee17e53852a_1660354362.jpeg" ,
         codigo: "Jr21",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
 
        },
     
@@ -230,7 +230,7 @@ const productos = [
         precio: "110.000",
         img: "https://th.bing.com/th/id/OIP.jYosHkv5b8Sy-YPhJiv51QHaHa?rs=1&pid=ImgDetMain" ,
         codigo: "Jr22",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
 
        },
     
@@ -242,7 +242,7 @@ const productos = [
         precio: "110.000",
         img:"https://libur.com.co/cdn/shop/files/IMG_2679_e827941e-8892-4f2e-b137-489f448f57f6.jpg" ,
         codigo: "Jr23",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
 
        },
     
@@ -254,7 +254,7 @@ const productos = [
         precio: "110.000",
         img:"https://libur.com.co/cdn/shop/files/IMG_4007_fc8778e3-443a-4991-a54e-adac055a068d.jpg"  ,
         codigo: "Jr24",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
 
        },
        
@@ -265,7 +265,7 @@ const productos = [
         precio: "120.000",
         img: "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/59052f3b-f867-45a8-93ae-26166af4f68c/fecha-de-lanzamiento-del-air-jordan-13-wheat-414571-171.jpg" ,
         codigo: "Jr25",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
 
        },
     
@@ -277,7 +277,7 @@ const productos = [
         precio: "120.000",
         img:"https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/2ecc27b5-3e3a-4b82-b485-aa237e9ebad4/fecha-de-lanzamiento-del-air-jordan-13-black-royal.jpg"  ,
         codigo: "Jr26",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
 
        },
     
@@ -289,7 +289,7 @@ const productos = [
         precio: "120.000",
         img:"https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/742452de-4a62-41dd-810d-3f4f922ed3ab/fecha-de-lanzamiento-de-las-air-jordan%C2%A013-court-purple-dj5982-015.jpg"  ,
         codigo: "Jr27",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
 
        },
     
@@ -301,7 +301,7 @@ const productos = [
         precio: "120.000",
         img: "https://th.bing.com/th/id/OIP.t7xunY1-f7BRyxQxSFb8cAHaHa?rs=1&pid=ImgDetMain"  ,
         codigo: "Jr28",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
 
        },
 
@@ -312,7 +312,7 @@ const productos = [
         precio: "120.000",
         img:"https://cdn.shopify.com/s/files/1/0746/5359/files/414571-164-PHSRH000-2000_480x480.png"  ,
         codigo: "Jr29",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
 
        },
 
@@ -323,7 +323,7 @@ const productos = [
         precio: "120.000",
         img: "https://th.bing.com/th/id/OIP.oSp7E_SQAStGx9vzn0mbXwHaHa?w=700&h=700&rs=1&pid=ImgDetMain",
         codigo: "Jr30",
-        categoria:"Deportivas",
+        categoria:"Deportivos",
 
        },
        { 
@@ -432,3 +432,124 @@ const productos = [
 
 ];
 
+
+
+
+let productosFiltrados = productos;
+let productosCargados = 40;
+let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+
+// Función para cargar los productos
+function cargarProductos() {
+  const contenedor = document.getElementById('productos');
+  const nuevosProductos = productosFiltrados.slice(0, productosCargados);
+
+  nuevosProductos.forEach(producto => {
+    const tarjeta = document.createElement('div');
+    tarjeta.className = 'producto';
+    tarjeta.innerHTML = `
+      <img src="${producto.img}" alt="${producto.nombre}" width="100%">
+      <h3>${producto.nombre}</h3>
+      <p>Precio: COP ${producto.precio}</p>
+      <p>Código: ${producto.codigo}</p>
+      <button onclick="verDetalle('${producto.codigo}')">Ver Detalle</button>
+    `;
+    contenedor.appendChild(tarjeta);
+  });
+}
+
+// Función para cargar más productos cuando el usuario se desplaza al final de la lista
+function cargarMasProductos() {
+  const totalProductos = productosFiltrados.length;
+
+  if (productosCargados < totalProductos) {
+    productosCargados = Math.min(productosCargados + 15, totalProductos);
+    cargarProductos();
+  } else {
+    alert('No hay más productos disponibles');
+  }
+}
+
+// Evento de scroll para cargar más productos al llegar al final de la lista
+document.getElementById('productos').addEventListener('scroll', (e) => {
+  const contenedor = e.target;
+  if (contenedor.scrollTop + contenedor.clientHeight >= contenedor.scrollHeight) {
+    // Llamar a cargar más productos solo si quedan productos disponibles
+    if (productosCargados < productosFiltrados.length) {
+      cargarMasProductos;
+    }
+  }
+});
+
+function verDetalle(codigo) {
+  const producto = productos.find(p => p.codigo === codigo);
+  const detalleInfo = document.getElementById('detalleInfo');
+  detalleInfo.innerHTML = `
+    <img src="${producto.img}" alt="${producto.nombre}" width="100%">
+    <h3>${producto.nombre}</h3>
+    <p>Precio: COP ${producto.precio}</p>
+    <p>Código: ${producto.codigo}</p>
+    <p>Categoría: ${producto.categoria}</p>
+    <p>Cantidad Disponible: ${producto.cantida_disponible}</p>
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad_${producto.codigo}" min="1" max="${producto.cantida_disponible}" value="">
+    <button onclick="agregarAlCarrito('${producto.codigo}')">Agregar al Carrito</button>
+  `;
+  document.getElementById('verDetalle').style.display = 'block';
+}
+
+function agregarAlCarrito(codigo) {
+  const producto = productos.find(p => p.codigo === codigo);
+  const cantidad = parseInt(document.getElementById(`cantidad_${codigo}`).value);
+
+  if (!cantidad || cantidad <= 0 || cantidad > producto.cantida_disponible) {
+    alert('Ingrese una cantidad válida');
+    return;
+  }
+
+  const productoEnCarrito = carrito.find(p => p.codigo === codigo);
+  if (productoEnCarrito) {
+    productoEnCarrito.cantidad += cantidad;
+  } else {
+    carrito.push({ ...producto, cantidad });
+  }
+
+  localStorage.setItem('carrito', JSON.stringify(carrito));
+  alert('Producto agregado al carrito');
+}
+
+function filtrarProductos() {
+  const categoria = document.getElementById('categoria').value;
+  const nombreProducto = document.getElementById('nombreProducto').value.toLowerCase();
+
+  productosFiltrados = productos.filter(p => {
+    return (
+      (categoria === '' || p.categoria.toUpperCase() === categoria.toUpperCase()) &&
+      (nombreProducto === '' || p.nombre.toLowerCase().includes(nombreProducto))
+    );
+  });
+
+  productosCargados = 40;
+  document.getElementById('productos').innerHTML = '';
+  cargarProductos();
+}
+
+function limpiarFiltros() {
+  document.getElementById('categoria').value = '';
+  document.getElementById('nombreProducto').value = '';
+  productosFiltrados = productos;
+  productosCargados = 40;
+  document.getElementById('productos').innerHTML = '';
+  cargarProductos();
+}
+
+function cancelarCompra() {
+  window.location.href = 'registro.html'; 
+}
+
+function completarCompra() {
+  window.location.href = 'carrito.html';
+}
+
+// Inicializar carga de productos al cargar la página
+window.onload = cargarProductos;

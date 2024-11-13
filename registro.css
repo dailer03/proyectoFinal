@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: purple;
+}
+
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+
+header .logo {
+  position: absolute;
+  left: 20px; /* Ubica el logo a la izquierda */
+  top: 50%;
+  transform: translateY(-50%); /* Centra el logo verticalmente */
+  height: 70px; /* Ajusta el tamaño del logo según prefieras */
+  
+}
+
+header .nombre-tienda {
+  position: absolute;
+  left: 100px; /* Ajusta esta distancia para que quede cerca del logo */
+  top: 50%;
+  transform: translateY(-50%); /* Centra el nombre verticalmente */
+  font-size: 1.2rem; /* Tamaño de fuente para el nombre */
+  color: white; /* Color del texto del nombre */
+}
+
+header h1 {
+  margin: 0;
+}
+
+
+
+/* Contenedor principal centrado debajo del header */
+.container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin-top: 20px; /* Espacio debajo del header */
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+h2{
+  text-align: center;
+  color:  #333;
+}
+
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 48%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="button"] {
+  background-color: #4CAF50;
+  color: white;
+}
+
+button[type="reset"] {
+  background-color: #f44336;
+  color: white;
+}
+
+button[type="button"]:hover {
+  background-color: #45a049;
+}
+
+button[type="reset"]:hover {
+  background-color: #e53935;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+footer {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 20px; /* Espacio encima del footer */
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+footer a {
+  color: #ffcc00; /* Color para los enlaces */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón */
+}

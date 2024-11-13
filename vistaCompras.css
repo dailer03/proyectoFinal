@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:purple;
+}
+
+header {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between; /* Para mantener los botones a la derecha */
+  align-items: center; /* Para alinear los elementos verticalmente */
+}
+
+.logo {
+  position: absolute;
+  width: 70px; /* Ajusta el ancho del logo */
+  height: auto; /* Mantiene la proporción */
+  margin-right: 10px; /* Añade un pequeño espacio a la derecha del logo */
+}
+ 
+
+header h1 {
+  flex: 1.5; /* Esto hace que el título ocupe el espacio disponible y lo centre */
+  text-align: center; /* Centra el texto del título */
+  margin: 0;
+}
+
+
+.nombre-tienda {
+  font-size: 1.2rem; /* Ajusta el tamaño de letra del nombre */
+  color: white; /* Color del nombre */
+  margin-left: 80px; /* Ajusta el espacio entre el logo y el nombre si es necesario */
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+
+nav button {
+  margin-left: 10px;
+}
+
+nav button:last-child {
+  margin-right: 0;
+}
+  
+  h1 {
+    text-align: center;
+   
+  }
+  
+
+  .btn-fil {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .btn-lim { 
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+  }
+  /* Botón "Cancelar Compra" con color rojo */
+.btn-cancelar {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #ff4d4d; /* Rojo */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Botón "Completar Compra" con color verde */
+.btn-completar {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50; /* Verde */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-cancelar:hover {
+  background-color: #e63946; /* Rojo más oscuro */
+}
+
+.btn-completar:hover {
+  background-color: #45a049; /* Verde más oscuro */
+}
+
+
+
+
+  
+  .main-container {
+    display: flex;
+    gap: 20px; /* Espacio entre container y conta */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    width: 70%;
+  }
+  
+  .conta {
+    width: 30%;
+  }
+
+  .productos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columnas */
+    gap: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  .producto {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+ .detalle {
+  margin-top: 40px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 60%;
+  display: block;
+  
+ }
+
+#verDetalle {
+  display: block;
+} 
+
+.filtros {
+  padding: 10px;
+  background-color: #f0f0f0; 
+  border-radius: 8px;
+  margin-bottom: 20px; /* Añade espacio debajo de la sección de filtros */
+}
+
+#productos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columnas */
+  gap: 20px;
+  max-height: 450px;
+  overflow-y: auto;
+}
